@@ -1,16 +1,39 @@
-# React + Vite
+# dotFive — Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+The official landing page for **dotFive**, a matchmaking utility for competitive shooters. Find players in your rank and queue up.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React** + **Vite** — Fast SPA with hot module reloading
+- **Vanilla CSS** — Custom design system with fluid typography and responsive breakpoints
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# Install dependencies
+npm install
 
-## Expanding the Oxlint configuration
+# Start development server
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+# Build for production
+npm run build
+```
+
+## Project Structure
+
+```
+dotFive-landing/
+├── public/                 # Static assets (app screenshots)
+├── src/
+│   ├── App.jsx             # Main application component
+│   ├── App.css             # Component styles & responsive breakpoints
+│   ├── index.css           # Design tokens, animations & utilities
+│   └── main.jsx            # React entry point
+└── index.html              # HTML entry with meta tags & fonts
+```
+
+## Links
+
+- **Legal** — [Privacy Policy](https://omprakash-wagh.github.io/dotfive-legal/#privacy) · [Terms of Service](https://omprakash-wagh.github.io/dotfive-legal/#terms) · [EULA](https://omprakash-wagh.github.io/dotfive-legal/#eula)
+- **Discord** — [Join the community](https://discord.gg/PpYB8W8Va)
