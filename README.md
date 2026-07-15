@@ -1,39 +1,39 @@
-# dotFive — Landing Page
+# dotFive
 
-The official landing page for **dotFive**, a matchmaking utility for competitive shooters. Find players in your rank and queue up.
+A matchmaking utility for competitive shooters. Find players in your rank and queue up.
 
-## Tech Stack
+## What is dotFive?
 
-- **React** + **Vite** — Fast SPA with hot module reloading
-- **Vanilla CSS** — Custom design system with fluid typography and responsive breakpoints
+dotFive is an Android app that helps competitive shooter players find teammates fast. Instead of scrolling through Discord servers or random forums, you can browse active lobbies filtered by rank and role — or create your own and let players come to you.
 
-## Getting Started
+## Features
 
-```bash
-# Install dependencies
-npm install
+- **Active Lobbies** — Lobbies include automated expiration timers to ensure all listed groups are currently active and seeking players.
+- **Role & Rank Filtering** — Filter available lobbies by specific player ranks and in-game roles to meet your team requirements.
+- **Squad Notifications** — Receive push notifications for incoming friend requests and lobby invitations.
 
-# Start development server
-npm run dev
+## How It Works
 
-# Build for production
-npm run build
-```
+1. **Connect Profile** — Create your gaming profile to verify your rank.
+2. **Browse or Create** — Browse the active lobby index or create a new listing for your squad.
+3. **Queue Up** — Group with matched players, monitor squad chat, and start playing.
 
-## Project Structure
+## Download
 
-```
-dotFive-landing/
-├── public/                 # Static assets (app screenshots)
-├── src/
-│   ├── App.jsx             # Main application component
-│   ├── App.css             # Component styles & responsive breakpoints
-│   ├── index.css           # Design tokens, animations & utilities
-│   └── main.jsx            # React entry point
-└── index.html              # HTML entry with meta tags & fonts
-```
+dotFive is currently available on **Android only**.
 
-## Links
+[Download .apk →](#)
 
-- **Legal** — [Privacy Policy](https://omprakash-wagh.github.io/dotfive-legal/#privacy) · [Terms of Service](https://omprakash-wagh.github.io/dotfive-legal/#terms) · [EULA](https://omprakash-wagh.github.io/dotfive-legal/#eula)
-- **Discord** — [Join the community](https://discord.gg/PpYB8W8Va)
+## Community
+
+Join the community on [Discord](https://discord.gg/PpYB8W8Va).
+
+## Legal
+
+- [Privacy Policy](https://omprakash-wagh.github.io/dotfive-legal/#privacy)
+- [Terms of Service](https://omprakash-wagh.github.io/dotfive-legal/#terms)
+- [EULA](https://omprakash-wagh.github.io/dotfive-legal/#eula)
+
+---
+
+*dotFive is an independent application and is not affiliated with Riot Games.*
