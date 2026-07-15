@@ -41,9 +41,9 @@ function App() {
       <header className="header fade-in">
         <div className="container header-content">
           <a href="#" className="brand">dot<span>Five</span></a>
-          <button className="btn-primary">
+          <a href="https://github.com/Omprakash-Wagh/dotFive-landing/releases/latest/download/dotFive.apk" className="btn-primary">
             <DownloadIcon /> Download .apk
-          </button>
+          </a>
         </div>
       </header>
 
@@ -56,9 +56,9 @@ function App() {
                 A matchmaking utility for competitive shooters. Find players in your rank and queue up instantly.
               </p>
               <div className="hero-action fade-in delay-3">
-                <button className="btn-primary" style={{ padding: '1rem 2rem', fontSize: '1.125rem' }}>
+                <a href="https://github.com/Omprakash-Wagh/dotFive-landing/releases/latest/download/dotFive.apk" className="btn-primary" style={{ padding: '1rem 2rem', fontSize: '1.125rem' }}>
                   <DownloadIcon /> Download .apk
-                </button>
+                </a>
                 <span className="sub-text">Android only.</span>
               </div>
             </div>
@@ -149,9 +149,9 @@ function App() {
           <div className="container">
             <h2 className="fade-in">Ready to queue?</h2>
             <div className="fade-in delay-1">
-              <button className="btn-primary" style={{ padding: '1rem 2.5rem', fontSize: '1.125rem' }}>
+              <a href="https://github.com/Omprakash-Wagh/dotFive-landing/releases/latest/download/dotFive.apk" className="btn-primary" style={{ padding: '1rem 2.5rem', fontSize: '1.125rem' }}>
                 <DownloadIcon /> Download .apk
-              </button>
+              </a>
             </div>
           </div>
         </section>

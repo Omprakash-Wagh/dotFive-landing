@@ -22,7 +22,7 @@ dotFive is an Android app that helps competitive shooter players find teammates 
 
 dotFive is currently available on **Android only**.
 
-[Download .apk →](#)
+[Download .apk →](https://github.com/Omprakash-Wagh/dotFive-landing/releases/latest/download/dotFive.apk)
 
 ## Community
 
