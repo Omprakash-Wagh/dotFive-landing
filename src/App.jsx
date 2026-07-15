@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 
 const DownloadIcon = () => (
@@ -36,6 +36,12 @@ const DiscordLogo = () => (
 );
 
 function App() {
+  useEffect(() => {
+    console.log("%cDude go play valorant no point inspecting", "font-size: 20px; font-weight: bold; color: #a855f7;");
+    console.log("%cBuilt by me and two friends are trying to take credit - every 'group' project ever", "font-size: 16px; color: #3b82f6;");
+    console.log("https://discord.gg/PpYB8W8Va join discord for free memes ... if you're into that kinda stuff");
+  }, []);
+
   return (
     <>
       <header className="header fade-in">
