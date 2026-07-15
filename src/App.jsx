@@ -40,7 +40,10 @@ function App() {
     <>
       <header className="header fade-in">
         <div className="container header-content">
-          <a href="#" className="brand">dot<span>Five</span></a>
+          <a href="#" className="brand">
+            <img src="/favicon.png" alt="dotFive Logo" className="brand-logo" />
+            dot<span>Five</span>
+          </a>
           <a href="https://github.com/Omprakash-Wagh/dotFive-landing/releases/latest/download/dotFive.apk" className="btn-primary">
             <DownloadIcon /> Download .apk
           </a>
